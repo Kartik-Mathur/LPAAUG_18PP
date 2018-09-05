@@ -18,7 +18,7 @@ int main(){
 		l=c;
 	}
 
-
+    cout<< l<,endl;
 
 
 	return 0;
