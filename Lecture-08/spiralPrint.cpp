@@ -18,7 +18,7 @@ void spiralPrint(int a[][300],int r,int c){
 		}
 		ec--;
 
-		if(sr<er){
+		if(sr<=er){
 			// print end row
 			for(int i=ec;i>=sc;i--){
 				cout<<a[er][i]<<" ";
@@ -26,7 +26,7 @@ void spiralPrint(int a[][300],int r,int c){
 			er--;
 		}
 
-		if(sc<ec){
+		if(sc<=ec){
 			// print starting column
 			for(int j=er;j>=sr;j--){
 				cout<<a[j][sc]<<" ";
