@@ -17,8 +17,8 @@ int main(){
 	else{
 		l=c;
 	}
-
-
+// Updating this line
+    cout<<l<<endl;
 
 
 	return 0;
